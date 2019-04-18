@@ -26,7 +26,7 @@
 
     noteController.updateDOM(elementDouble);
 
-    assert.isTrue("NoteController changes the inner HTML of an element", elementDouble.innerHTML === "<ul><li><div>Fave drink: prosecco</div></li></ul>")
+    assert.isTrue("NoteController changes the inner HTML of an element", elementDouble.innerHTML === "<ul><li><div><a href='#notes/0'>Fave drink: prosecco</a></div></li></ul>")
   }
 
   testCanBeInstantiated();
